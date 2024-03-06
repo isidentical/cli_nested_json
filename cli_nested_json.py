@@ -300,7 +300,7 @@ def assert_cant_happen():
     raise ValueError("Unexpected value")
 
 
-JSONType = Type[Union[dict, list, int, float, str]]
+JSONType = type[Union[dict, list, int, float, str]]
 JSON_TYPE_MAPPING = {
     dict: "object",
     list: "array",
