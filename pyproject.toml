@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.black]
-target-version = ["py39"]
+target-version = ["py38"]
 preview = true
 
 [tool.isort]
